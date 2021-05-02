@@ -186,7 +186,7 @@
 <style lang='scss' scoped>
 	#movie-preview {
 		display: flex;
-		overflow: auto;
+		
 
 		#movie-container {
 			display: flex;
@@ -205,6 +205,7 @@
 						0 10px 10px rgba(0, 0, 0, 0.473);
 					margin-bottom: 7px;
 					border-radius: 15px;
+					object-fit: contain;
 				}
 			}
 
@@ -221,7 +222,7 @@
 				}
 
 				h3 {
-					color: rgb(143, 143, 143);
+					color:rgb(177, 174, 174);
 
 					#movie-rating {
 						display: flex;

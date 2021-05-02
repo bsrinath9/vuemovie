@@ -1,7 +1,7 @@
 <template>
     <div id="navbar-wrap" class="card-shadow">
         <div id="navbar">
-            <h2 @click="$router.push('/')">Movie.io</h2>
+            <h2 @click="$router.push('/')">VuetheMovie</h2>
             <div v-if="$route.path =='/'">
                 <input 
                     v-model="search"
@@ -40,7 +40,7 @@ export default {
 			display: flex;
 			padding: 15px;
 			justify-content: space-between;
-			background-color: #a34c01;
+			background-color: #2f5df3;
 
 			h2 {
 				margin: 0 1rem 0 0;

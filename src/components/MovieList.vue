@@ -1,6 +1,6 @@
 <template>
     <div id="movie-container"> 
-        Movie List 
+        <!-- Movie List  -->
 
         <movie v-for="movie in movies" :key="movie.id" :movie="movie" />
     </div>
@@ -38,5 +38,9 @@ export default {
 		flex-wrap: wrap;
 		flex-grow: 2;
 		justify-content: center;
+        object-fit: contain;
+        
+        
+        
 	}
 </style>

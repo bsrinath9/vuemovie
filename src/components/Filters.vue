@@ -1,4 +1,6 @@
 <template>
+
+
     <div id="filters">
         <h3>Filters</h3>
         <p v-for="(filter, index) in filters" :key="index" @click="applyFilter(filter)">

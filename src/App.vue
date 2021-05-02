@@ -6,7 +6,7 @@
 
 <style lang="scss">
 	body {
-		background-color: #222b31;
+		background-color: #474b50;
 		margin: 0;
 	}
 
@@ -19,7 +19,7 @@
 		-webkit-font-smoothing: antialiased;
 		-moz-osx-font-smoothing: grayscale;
 		text-align: center;
-		color: #2c3e50;
+		color: #5c5e61;
 	}
 
 	.card-shadow {

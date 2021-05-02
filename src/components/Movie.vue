@@ -47,6 +47,7 @@ export default {
 		min-width: 300px;
 		max-width: 300px;
 		position: relative;
+			
 
 		img {
 			max-width: 100%;
@@ -55,6 +56,11 @@ export default {
 			margin-bottom: 7px;
 			border-radius: 15px;
 			cursor: pointer;
+			//position: absolute;
+			object-fit: cover;
+			
+			
+			
 		}
 
 		.description {
